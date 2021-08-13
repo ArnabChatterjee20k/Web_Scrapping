@@ -1,0 +1,17 @@
+How does a website works in the backend?
+Step 1: User requests a page. Eg:- www.google.com
+
+Step 2: On whichever server the data is, that server sends you back a raw html file.
+Step 3: Web browser converts the html file into a readable webpage
+
+What is web scrapping?
+The technique of taking the html file sent by the server into python and scrapping it instead of giving it to the browser and displaying it is called Web scrapping.
+
+Two ways of getting data from a website:
+
+Using API
+HTML web scrapping using some tool like bs4
+
+requests will help us to get the content from internet. But it will not parse.
+
+html5 will parse the content and  it will be used by bs4 to give HTML content a tree like structure so that it can be transversed
